@@ -1,3 +1,44 @@
 <resources>
     <string name="app_name">Amadeus</string>
+    <string name="title_activity_settings">Settings</string>
+
+
+
+
+
+
+
+
+    <!-- Strings for Settings/Preferences -->
+
+    <!-- Headers -->
+    <string name="pref_header_general">Allgemein</string>
+    <string name="pref_header_aboutme">Über mich</string>
+
+
+    <!-- Language -->
+    <string name="pref_title_language">Systemsprache</string>
+    <string name="pref_language_defaultValue">German</string>
+    <string-array name="pref_language_titles">
+        <item>Deutsch</item>
+        <item>Englisch</item>
+    </string-array>
+    <string-array name="pref_language_values">
+        <item>German</item>
+        <item>English</item>
+    </string-array>
+
+
+    <!-- Subtitles -->
+    <string name="pref_category_title_subtitles">Untertitel Einstellungen</string>
+    <string name="pref_title_subtitles">Untertitel</string>
+    <string name="pref_summary_subtitles">Aktiviert Untertitel</string>
+    <string name="pref_title_subtitles_language">Untertitel Sprache</string>
+
+
+    <!-- About Me -->
+
+
+
+
 </resources>

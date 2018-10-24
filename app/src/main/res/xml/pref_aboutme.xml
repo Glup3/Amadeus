@@ -1,0 +1,22 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="version"
+        android:title="Template TITLE"
+        android:summary="TEMPLATE TEXT/SUMMARY"
+        android:enabled="false"
+        android:selectable="false"
+        android:persistent="false"
+        android:shouldDisableView="false"/>
+
+    <EditTextPreference
+        android:key="version"
+        android:summary="Age: 17"
+        android:enabled="false"
+        android:selectable="false"
+        android:persistent="false"
+        android:shouldDisableView="false"/>
+
+
+
+</PreferenceScreen>

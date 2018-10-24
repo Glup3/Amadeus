@@ -1,0 +1,38 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ListPreference
+        android:defaultValue="@string/pref_language_defaultValue"
+        android:title="@string/pref_title_language"
+        android:entries="@array/pref_language_titles"
+        android:entryValues="@array/pref_language_values"
+        android:key="pref_language_key"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        />
+
+    <PreferenceCategory
+        android:title="@string/pref_category_title_subtitles"
+        android:key="pref_category_language_key">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="pref_subtitle_key"
+            android:summary="@string/pref_summary_subtitles"
+            android:title="@string/pref_title_subtitles"
+            />
+
+        <ListPreference
+            android:defaultValue="@string/pref_language_defaultValue"
+            android:title="@string/pref_title_subtitles_language"
+            android:entries="@array/pref_language_titles"
+            android:entryValues="@array/pref_language_values"
+            android:key="pref_subtitles_language_key"
+
+            />
+
+    </PreferenceCategory>
+
+
+
+
+</PreferenceScreen>
