@@ -4,17 +4,14 @@
 
     <header
         android:fragment="at.tra.glup3.amadeus.SettingsActivity$GeneralPreferenceFragment"
-        android:icon="@drawable/ic_info_black_24dp"
+        android:icon="@drawable/ic_info_blue_24dp"
         android:title="@string/pref_header_general" />
 
-    <header
-        android:fragment="at.tra.glup3.amadeus.SettingsActivity$NotificationPreferenceFragment"
-        android:icon="@drawable/ic_notifications_black_24dp"
-        android:title="@string/pref_header_notifications" />
+    // add headers for more sections
 
     <header
-        android:fragment="at.tra.glup3.amadeus.SettingsActivity$DataSyncPreferenceFragment"
-        android:icon="@drawable/ic_sync_black_24dp"
-        android:title="@string/pref_header_data_sync" />
+        android:fragment="at.tra.glup3.amadeus.SettingsActivity$AboutMePreferenceFragment"
+        android:title="@string/pref_header_aboutme"
+        android:icon="@drawable/ic_info_blue_24dp"/>
 
 </preference-headers>
