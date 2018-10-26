@@ -12,31 +12,32 @@
     <!-- Strings for Settings/Preferences -->
 
     <!-- Headers -->
-    <string name="pref_header_general">Allgemein</string>
-    <string name="pref_header_aboutme">Über mich</string>
+    <string name="pref_header_general">General</string>
+    <string name="pref_header_aboutme">About Me</string>
 
 
     <!-- Language -->
-    <string name="pref_title_language">Systemsprache</string>
-    <string name="pref_language_defaultValue">German</string>
+    <string name="pref_title_language">System Language</string>
+    <string name="pref_language_defaultValue">en</string>
     <string-array name="pref_language_titles">
-        <item>Deutsch</item>
-        <item>Englisch</item>
-    </string-array>
-    <string-array name="pref_language_values">
         <item>German</item>
         <item>English</item>
+    </string-array>
+    <string-array name="pref_language_values">
+        <item>de</item>
+        <item>en</item>
     </string-array>
 
 
     <!-- Subtitles -->
-    <string name="pref_category_title_subtitles">Untertitel Einstellungen</string>
-    <string name="pref_title_subtitles">Untertitel</string>
-    <string name="pref_summary_subtitles">Aktiviert Untertitel</string>
-    <string name="pref_title_subtitles_language">Untertitel Sprache</string>
+    <string name="pref_category_title_subtitles">Subtitles Settings</string>
+    <string name="pref_title_subtitles">Subtitles</string>
+    <string name="pref_summary_subtitles">Activate Subtitles</string>
+    <string name="pref_title_subtitles_language">Subtitles Language</string>
 
 
     <!-- About Me -->
+    <string name="pref_summary_age_aboutme">Age: 17</string>
 
 
 

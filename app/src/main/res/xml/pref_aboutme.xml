@@ -11,7 +11,7 @@
 
     <EditTextPreference
         android:key="version"
-        android:summary="Age: 17"
+        android:summary="@string/pref_summary_age_aboutme"
         android:enabled="false"
         android:selectable="false"
         android:persistent="false"
