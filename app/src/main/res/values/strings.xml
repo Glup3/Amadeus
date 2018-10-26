@@ -1,45 +1,17 @@
 <resources>
-    <string name="app_name">Amadeus</string>
-    <string name="title_activity_settings">Settings</string>
-
-
-
-
-
-
-
+    <string name="app_name" translatable="false">Amadeus</string>
 
     <!-- Strings for Settings/Preferences -->
 
-    <!-- Headers -->
-    <string name="pref_header_general">General</string>
-    <string name="pref_header_aboutme">About Me</string>
-
-
     <!-- Language -->
     <string name="pref_title_language">System Language</string>
-    <string name="pref_language_defaultValue">en</string>
-    <string-array name="pref_language_titles">
-        <item>German</item>
-        <item>English</item>
-    </string-array>
-    <string-array name="pref_language_values">
-        <item>de</item>
-        <item>en</item>
-    </string-array>
-
+    <string name="pref_language_defaultValue" translatable="false">en</string>
 
     <!-- Subtitles -->
     <string name="pref_category_title_subtitles">Subtitles Settings</string>
     <string name="pref_title_subtitles">Subtitles</string>
     <string name="pref_summary_subtitles">Activate Subtitles</string>
     <string name="pref_title_subtitles_language">Subtitles Language</string>
-
-
-    <!-- About Me -->
-    <string name="pref_summary_age_aboutme">Age: 17</string>
-
-
 
 
 </resources>
