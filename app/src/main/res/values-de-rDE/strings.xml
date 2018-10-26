@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_title_language">System Sprache</string>
+    <string name="pref_category_title_subtitles">Einstellungen für Untertitel</string>
+    <string name="pref_title_subtitles">Untertitel</string>
+    <string name="pref_summary_subtitles">Aktiviere Untertitel</string>
+    <string name="pref_title_subtitles_language">Untertitelsprache</string>
+
+</resources>
