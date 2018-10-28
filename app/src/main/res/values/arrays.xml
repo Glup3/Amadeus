@@ -3,7 +3,7 @@
 
     <!-- Language List -->
     <string-array name="pref_language_titles">
-        <item>German</item>
+        <item>Deutsch</item>
         <item>English</item>
     </string-array>
     <string-array name="pref_language_values">
