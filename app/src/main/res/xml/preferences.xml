@@ -7,7 +7,8 @@
         android:entryValues="@array/pref_language_values"
         android:key="pref_language_key"
         android:negativeButtonText="@null"
-        android:positiveButtonText="@null" />
+        android:positiveButtonText="@null"
+        android:summary="@string/pref_language_summary"/>
 
     <PreferenceCategory
         android:title="@string/pref_category_title_subtitles"

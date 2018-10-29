@@ -6,6 +6,7 @@
     <!-- Language -->
     <string name="pref_title_language">System Language</string>
     <string name="pref_language_defaultValue" translatable="false">en</string>
+    <string name="pref_language_summary">Restart required</string>
 
     <!-- Subtitles -->
     <string name="pref_category_title_subtitles">Subtitles Settings</string>
