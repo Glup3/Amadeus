@@ -5,5 +5,8 @@
     <string name="pref_title_subtitles">Untertitel</string>
     <string name="pref_summary_subtitles">Aktiviere Untertitel</string>
     <string name="pref_title_subtitles_language">Untertitelsprache</string>
+    <string name="start_btn_start">Verbinden</string>
+    <string name="start_btn_settings">Einstellungen</string>
+    <string name="start_btn_close">Beenden</string>
 
 </resources>
