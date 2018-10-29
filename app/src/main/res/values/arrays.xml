@@ -5,10 +5,12 @@
     <string-array name="pref_language_titles">
         <item>Deutsch</item>
         <item>English</item>
+        <item>Francais</item>
     </string-array>
     <string-array name="pref_language_values">
         <item>de</item>
         <item>en</item>
+        <item>fr</item>
     </string-array>
 
 

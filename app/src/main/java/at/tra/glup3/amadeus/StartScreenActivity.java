@@ -24,5 +24,14 @@ public class StartScreenActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void startAmadeus(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+
+    public void closeProgramm(View view) {
+        finish();
+        System.exit(0);
+    }
 
 }
