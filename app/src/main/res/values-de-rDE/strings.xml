@@ -8,5 +8,6 @@
     <string name="start_btn_start">Verbinden</string>
     <string name="start_btn_settings">Einstellungen</string>
     <string name="start_btn_close">Beenden</string>
+    <string name="pref_language_summary">Neustart erforderlich</string>
 
 </resources>
