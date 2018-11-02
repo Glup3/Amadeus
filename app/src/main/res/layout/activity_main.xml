@@ -12,8 +12,7 @@
         android:id="@+id/anzeige_Text"
         android:layout_centerInParent="true"
         android:gravity="center"
-        android:textSize="25sp"
-        android:text="TEST"/>
+        android:textSize="25sp" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -21,6 +20,7 @@
         android:layout_below="@id/anzeige_Text"
         android:src="@drawable/amadeus_logo"
         android:layout_centerInParent="true"
-        android:onClick="getSpeechInput" />
+        android:onClick="getSpeechInput"
+        android:contentDescription="Tap to Speak"/>
 
 </RelativeLayout>
