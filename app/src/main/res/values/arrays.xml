@@ -14,5 +14,17 @@
     </string-array>
 
 
+    <!-- Recognition Language List -->
+    <string-array name="pref_recognition_language_titles">
+        <item>Deutsch</item>
+        <item>English</item>
+        <item>日本語</item>
+    </string-array>
+    <string-array name="pref_recognition_language_values">
+        <item>de-DE</item>
+        <item>en-US</item>
+        <item>ja-JP</item>
+    </string-array>
+
 
 </resources>
