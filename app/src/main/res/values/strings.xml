@@ -4,9 +4,14 @@
     <!-- Strings for Settings/Preferences -->
 
     <!-- Language -->
+    <string name="pref_category_title_languages">Language Settings</string>
     <string name="pref_title_language">System Language</string>
     <string name="pref_language_defaultValue" translatable="false">en</string>
     <string name="pref_language_summary">Restart required</string>
+
+    <!-- Recognition Language -->
+    <string name="pref_recognition_language_defaultValue">ja-JP</string>
+    <string name="pref_recognition_language_title">Recognition Language</string>
 
     <!-- Subtitles -->
     <string name="pref_category_title_subtitles">Subtitles Settings</string>

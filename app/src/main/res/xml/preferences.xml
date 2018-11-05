@@ -1,18 +1,31 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <ListPreference
-        android:defaultValue="@string/pref_language_defaultValue"
-        android:title="@string/pref_title_language"
-        android:entries="@array/pref_language_titles"
-        android:entryValues="@array/pref_language_values"
-        android:key="pref_language_key"
-        android:negativeButtonText="@null"
-        android:positiveButtonText="@null"
-        android:summary="@string/pref_language_summary"/>
+    <PreferenceCategory
+        android:title="@string/pref_category_title_languages"
+        android:key="pref_category_language_key">
+        <ListPreference
+            android:defaultValue="@string/pref_language_defaultValue"
+            android:title="@string/pref_title_language"
+            android:entries="@array/pref_language_titles"
+            android:entryValues="@array/pref_language_values"
+            android:key="pref_language_key"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:summary="@string/pref_language_summary" />
+
+        <ListPreference
+            android:defaultValue="@string/pref_recognition_language_defaultValue"
+            android:title="@string/pref_recognition_language_title"
+            android:entries="@array/pref_recognition_language_titles"
+            android:entryValues="@array/pref_recognition_language_values"
+            android:key="pref_recognition_language_key"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null" />
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:title="@string/pref_category_title_subtitles"
-        android:key="pref_category_language_key" >
+        android:key="pref_category_subtitles_key" >
 
         <SwitchPreference
             android:defaultValue="true"
